@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+/*===============start left area=============*/
+.main-form {
+    display: flex;
+    position: relative;
+}
+.left-main, .form-right {
+    width: 50%;
+}
+.left-main{
+    background: #3BD6BF;
+    padding: 20px;
+}
+
+.left-main h2 {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 36px;
+    color: #9BE5D9;
+    letter-spacing: 3px;
+    left: -33%;
+    margin-top: 31%;
+}
+.column input {
+    margin: 8px 9px;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 37%;
+}
+.column textarea {
+    margin: 8px 11px;
+    padding: 15px;
+    height: 82px;
+    width: 88%;
+    border: none;
+    border-radius: 5px;
+}
+.column button {
+    cursor: pointer;
+    margin: 11px 11px;
+    padding: 16px;
+    color: #32D6BE;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background:#fff;
+}
+
+.column button:focus, .column textarea:focus, .column input:focus{
+    outline: none;
+}
+.left-main form {
+    margin-left: 29%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    position: relative;
+    z-index: 99;
+}
+.column input::placeholder, textarea::placeholder{
+    color:#B6B6B6;
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.left-main:after {
+    content: '';
+    background-image: url(../images/group-meeting.jpg);
+    position: absolute;
+    width: 51.5%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    opacity: .1;
+    background-size: cover;
+}
+/*===============end left area=============*/
+
+/*===============start right area=============*/
+.right-main {
+    margin-top: 11%;
+    margin-left: 8%;
+}
+.right-main h3 {
+    font-size: 22px;
+    color: #4E4E4E;
+    font-weight: 500;
+}
+.right-main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.right-main button{
+    cursor: pointer;
+    margin: 11px 11px;
+    padding: 18px;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background:#32D6BE;
+}
+.right-main button:focus{
+    outline: none;
+}
+span.icon {
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    background: #32D6BE;
+}
+.right-main ul li div {
+    margin: 20px;
+    padding-left: 12px;
+    color: #616161;
+}
+.icon:after {
+    content: '';
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #32D6BE;
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: -7px;
+}
+i.fas.fa-check {
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    left: 2px;
+    top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
